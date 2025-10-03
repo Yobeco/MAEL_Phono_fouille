@@ -1,0 +1,97 @@
+Amélioration de la création de la Requête
+
+
+,,,,,,,,,,,,,,,,,,,,,,,,,
+    Première version
+'''''''''''''''''''''''''
+
+SELECT DISTINCT ortho FROM minilex1 
+    WHERE (niv = 1 )
+    AND ((phon LIKE '%e%')) 
+    OR ((phon LIKE '%E%')) 
+    AND ((ortho LIKE '%e%')) 
+    AND ((ortho NOT LIKE '%ai%')) 
+    AND ((ortho NOT LIKE '%er%'))
+    AND (nbsyll BETWEEN 1 AND 9) 
+    AND ((nat = 'N') 
+        OR (nat = 'V') 
+        OR (nat = 'A') 
+        OR (nat = 'PM')
+        )
+    AND ((theme = 'espace') 
+        OR (theme = 'temps') 
+        OR (theme = 'maison') 
+        OR (theme = 'ecole') 
+        OR (theme = 'nature') 
+        OR (theme = 'jardin') 
+        OR (theme = 'activ_phy') 
+        OR (theme = 'moi_autres') 
+        OR (theme = 'transports') 
+        OR (theme = 'cuisine') 
+        OR (theme = 'metiers') 
+        OR (theme = 'musique') 
+        OR (theme = 'pron_autres') 
+        OR (theme = 'maths_raison') 
+        OR (theme = 'question')
+        )
+;
+
+
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+     Requête Fonctionnelle
+'''''''''''''''''''''''''''''''''
+
+SELECT DISTINCT ortho 
+FROM minilex1 
+WHERE niv = 1
+    AND (phon LIKE '%e%'
+		OR phon LIKE '%E%')
+    AND (ortho LIKE '%e%'
+		AND ortho NOT LIKE '%ai%'
+		AND ortho NOT LIKE '%er%')
+    AND nbsyll BETWEEN 1 AND 9
+    AND ((nat = 'N') 
+        OR (nat = 'V') 
+        OR (nat = 'A') 
+        OR (nat = 'PM')
+        )
+    AND ((theme = 'espace') 
+        OR (theme = 'temps') 
+        OR (theme = 'maison') 
+        OR (theme = 'ecole') 
+        OR (theme = 'nature') 
+        OR (theme = 'jardin') 
+        OR (theme = 'activ_phy') 
+        OR (theme = 'moi_autres') 
+        OR (theme = 'transports') 
+        OR (theme = 'cuisine') 
+        OR (theme = 'metiers') 
+        OR (theme = 'musique') 
+        OR (theme = 'pron_autres') 
+        OR (theme = 'maths_raison') 
+        OR (theme = 'question')
+        )
+;
+
+
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+    Requête Fonctionnelle et Optimisée
+''''''''''''''''''''''''''''''''''''''''''''
+
+SELECT DISTINCT ortho
+FROM minilex1
+WHERE niv = 1
+  AND (phon LIKE '%e%' OR phon LIKE '%E%')
+  AND ortho LIKE '%e%'
+  AND ortho NOT LIKE '%ai%'
+  AND ortho NOT LIKE '%er%'
+  AND nbsyll BETWEEN 1 AND 9
+  AND nat IN ('N', 'V', 'A', 'PM')
+  AND theme IN (
+    'espace', 'temps', 'maison', 'ecole', 'nature', 'jardin',
+    'activ_phy', 'moi_autres', 'transports', 'cuisine', 'metiers',
+    'musique', 'pron_autres', 'maths_raison', 'question'
+  );
+
+
+
