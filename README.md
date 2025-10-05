@@ -19,7 +19,7 @@ Copyright (c) 2025 Yonnel Bécognée
 
 ---
 
-![](../readme_assets/Phonofouille_V01.png)
+![](https://github.com/Yobeco/MAEL_Phono_fouille/blob/main/readme_assets/Phonofouille_V01.png)
 
 ![](../readme_assets/Logo-MAEL-128px-Alpha.png)
 
