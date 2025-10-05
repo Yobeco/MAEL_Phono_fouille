@@ -1,4 +1,4 @@
-![MAEL](https://github.com/Yobeco/MAEL_Phono_fouille/blob/main/readme_assets/Logo-MAEL-128px-Alpha.png)
+![MAEL](https://github.com/Yobeco/MAEL_Phono_fouille/blob/main/readme_assets/Logo-MAEL-hor-190.png "Logo du projet MAEL")
 
 Une application associée au projet MAEL
 
@@ -24,11 +24,7 @@ Copyright (c) 2025 Yonnel Bécognée
 
 ---
 
-
-
-
 ![](https://github.com/Yobeco/MAEL_Phono_fouille/blob/main/readme_assets/Phonofouille_V01.png)
-
 
 
 ## 1- Description
