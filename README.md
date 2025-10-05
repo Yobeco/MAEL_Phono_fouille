@@ -1,4 +1,4 @@
-![MAEL](https://github.com/Yobeco/MAEL_Phono_fouille/blob/main/readme_assets/Logo-txt-vert-116.png "Logo du projet MAEL")
+![MAEL](https://github.com/Yobeco/MAEL_Phono_fouille/blob/main/readme_assets/Logo-MAEL-120.png "Logo du projet MAEL")
 
 Une application associée au projet MAEL
 
