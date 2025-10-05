@@ -1,4 +1,9 @@
+![MAEL](https://github.com/Yobeco/MAEL_Phono_fouille/blob/main/readme_assets/Logo-MAEL-128px-Alpha.png)
+
+Une application associée au projet MAEL
+
 # Phono fouille
+
 Copyright (c) 2025 Yonnel Bécognée
 
 [![License: Libre Non Commerciale](https://img.shields.io/badge/license-Libre%20Non%20Commerciale-blue.svg)](./LICENSE)
@@ -19,9 +24,12 @@ Copyright (c) 2025 Yonnel Bécognée
 
 ---
 
+
+
+
 ![](https://github.com/Yobeco/MAEL_Phono_fouille/blob/main/readme_assets/Phonofouille_V01.png)
 
-![](../readme_assets/Logo-MAEL-128px-Alpha.png)
+
 
 ## 1- Description
 
