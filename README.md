@@ -9,6 +9,8 @@ Copyright (c) 2025 Yonnel Bécognée
 
 [![Status: Active](https://img.shields.io/badge/status-active-success.svg)]()
 
+:beginner-friendly:
+
 ---
 
 **Auteur** : Yonnel Bécognée
@@ -16,6 +18,10 @@ Copyright (c) 2025 Yonnel Bécognée
 **Année** : 2025
 
 ---
+
+![](../readme_assets/Phonofouille_V01.png)
+
+![](../readme_assets/Logo-MAEL-128px-Alpha.png)
 
 ## 1- Description
 
