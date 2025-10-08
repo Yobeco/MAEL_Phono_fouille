@@ -11,3 +11,6 @@ __pycache__/
 
 # Autres fichiers à éviter
 *.log
+
+# Mon script de BackUp
+backup_Phonofouille.py

@@ -38,28 +38,28 @@ def beep(frequency, duration):
     sd.play(wave, sample_rate)
     sd.wait()
 
-    print(f"Sauvegarde de 'Phono_fouille' réussie !")
+    print(f"Sauvegarde de 'Phonofouille' réussie !")
 
 if __name__ == "__main__":
     # Chemin du dossier source (le même que celui du script)
     source_dir = os.path.dirname(os.path.abspath(__file__))
 
     # Chemin du dossier où faire la sauvegarde
-    destination_base_dir = os.path.join(source_dir, "../Backup_Phono_fouille")
+    destination_base_dir = os.path.join(source_dir, "../Backup_Phonofouille")
 
     # Créer le nom du nouveau dossier selon la date et l'heure actuelle
     date_heure = datetime.now().strftime("%Y-%m-%d_%H-%M")
-    destination_dir = os.path.join(destination_base_dir, f"Phono_fouille_{date_heure}")
+    destination_dir = os.path.join(destination_base_dir, f"Phonofouille_{date_heure}")
 
     # Liste des exceptions
     exceptions = ["__pycache__",
-                  "Backup_Phono_fouille",
+                  "Backup_Phonofouille",
                   "Captures d'écran",
                   "Doc",
                   "Essai",
                   "OBS",
                   "venv_phono",
-                  "backup_Phono_fouille.py",
+                  "backup_Phonofouille.py",
                   "Création requête",
                   "Essais_SQLalchemy",
                   "DB.Browser.for.SQLite-v3.13.1-x86.64-v2.AppImage"
