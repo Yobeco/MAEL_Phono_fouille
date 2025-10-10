@@ -81,11 +81,11 @@ Les différents widgets de l'interface génèrent une [variable de type dictionn
 ## E- Fonctionnalités à développer :rocket:
 
 - Ajout des images associées aux mots dans la base de données.
-- Ajout des vignettes dans l'interface du moteur de recherche.
+- Ajout des vignettes correspondant dans l'interface du moteur de recherche de Phonofouille.
 
-Il faudrait surtout porter **MAEL Phonofouille** en JavaScript dans l'interface de la plateforme **MAEL Phrases**.
+Il faudrait surtout porter **MAEL Phonofouille** en JavaScript <img src="https://cdn.simpleicons.org/javascript/FFFF" width="24" height="24" style="vertical-align: middle;" /> dans l'interface de la plateforme **MAEL Phrases**.
 
-### :+1: Proposez votre aide pour efffectuer ce portage.
+### :+1: Proposez votre aide pour effectuer ce portage.
 
 ---
 
