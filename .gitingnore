@@ -2,7 +2,7 @@
 env/
 venv/
 .venv/
-venv_phono
+venv_phono/
 
 # Cache Python
 __pycache__/
@@ -14,6 +14,5 @@ __pycache__/
 
 # Mon script de BackUp
 backup_Phonofouille.py
-venv_phono
 Test_result.py
-__pycache__
+
