@@ -13,7 +13,7 @@ __pycache__/
 *.log
 
 # Mon script de BackUp
-# backup_Phonofouille.py
-# venv_phono
-# Test_result.py
-# __pycache__
+backup_Phonofouille.py
+venv_phono
+Test_result.py
+__pycache__

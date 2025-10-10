@@ -24,19 +24,19 @@ Copyright (c) 2022 Yonnel Bécognée
 
 ## A- Description :eye:
 
-:computer: **Application de bureau** multiplateforme (Linux, MacOS et Windows) qui permet aux enseignants de trouver de mots selon des critères pédagogiques très utiles comme :
+:computer: **Application de bureau** multiplateforme (Linux, MacOS et Windows) qui permet aux enseignants de trouver des mots selon des critères pédagogiques très utiles comme :
 
 - La présence et la position d'un son dans le mot,
-- la présence et la position de lettres,
-- le niveau de difficulté des mots,
-- le thème,
-- la nature grammaticale du mot...
+- La présence et la position de lettres,
+- Le niveau de difficulté des mots,
+- Le thème,
+- La nature grammaticale du mot...
 
 Les **bases de données** <img src="https://cdn.simpleicons.org/sqlite/FFFF" width="24" height="24" style="vertical-align: middle;" /> de mots actuellement implémentées sont :
 - [MiniLex](https://github.com/Yobeco/MAEL_Phrases/blob/main/readme_assets/Minima%20_Lexical_C1fev25.pdf) élaborée par AMLA Nord
 - [Lexique 3.83](http://www.lexique.org/) <img src="https://cdn.simpleicons.org/creativecommons/FFFF" width="24" height="24" style="vertical-align: middle;" /> BY NC *(Très complète ! Et surtout : contient les __descriptions phoniques__)*
 
-**Phonofouille** est déjà utilisé comme tel par des enseignants, mais son objectif réel est d'être implémenté en JavaScript <img src="https://cdn.simpleicons.org/javascript/FFFF" width="24" height="24" style="vertical-align: middle;" /> dans **MAEL Phrase** afin d'aider les enseignants à créer des activités sur mesure pour leurs élèves dans **MAEL Phrase**.
+**Phonofouille** est déjà utilisé comme tel par des enseignants, mais son objectif réel est d'être implémenté en JavaScript <img src="https://cdn.simpleicons.org/javascript/FFFF" width="24" height="24" style="vertical-align: middle;" /> dans **MAEL Phrase** afin d'aider les enseignants à créer des activités sur mesure pour leurs élèves.
 
 ---
 
@@ -62,7 +62,7 @@ Les **bases de données** <img src="https://cdn.simpleicons.org/sqlite/FFFF" wid
 L'utilisation est très standard :
 
 1. Choisir la base de données.
-1. Choisir les critères de sélection des mots (Pas d'ordre en particulier).
+1. Choisir les critères de sélection des mots (pas d'ordre en particulier).
 1. Lancer la recherche.
 1. Copier toute la liste ou seulement un mot.
 
@@ -72,9 +72,7 @@ L'utilisation est très standard :
 
 *(Pour aider à la compréhension du code)*
 
----
-
-Les différents widgets de l'interface génèrent une [variable de type dictionnaire](/readme_assets/parsed_data_V6.pdf) qui contient les critères qui seront utilisés par **SQlite** pour lancer la recherche.
+Les différents widgets de l'interface génèrent une [variable de type dictionnaire](/readme_assets/parsed_data_V6.pdf) qui contient les critères qui seront utilisés par **SQlite** <img src="https://cdn.simpleicons.org/sqlite/FFFF" width="24" height="24" style="vertical-align: middle;" /> pour lancer la recherche. :mag_right:
 
 ---
 
@@ -83,15 +81,15 @@ Les différents widgets de l'interface génèrent une [variable de type dictionn
 - Ajout des images associées aux mots dans la base de données.
 - Ajout des vignettes correspondant dans l'interface du moteur de recherche de Phonofouille.
 
-Il faudrait surtout porter **MAEL Phonofouille** en JavaScript <img src="https://cdn.simpleicons.org/javascript/FFFF" width="24" height="24" style="vertical-align: middle;" /> dans l'interface de la plateforme **MAEL Phrases**.
+Il faudrait surtout porter **MAEL Phonofouille** en JavaScript <img src="https://cdn.simpleicons.org/javascript/FFFF" width="24" height="24" style="vertical-align: middle;" /> dans l'interface de la plateforme [**MAEL Phrases**](https://github.com/Yobeco/MAEL_Phrase).
 
-### :+1: Proposez votre aide pour effectuer ce portage.
+### :+1: Proposez votre aide pour effectuer ce portage. :smile:
 
 ---
 
 ## F- Participez au projet MAEL :open_hands:
 
-:sos: Pour **obtenir de l'aide** concernant l'utilisation de MAEL ou pour **paticiper au développement** :computer:, écrivez-moi ici :
+:sos: Pour **obtenir de l'aide** concernant l'utilisation de **MAEL Phonofouille** ou pour **paticiper au développement** :computer:, écrivez-moi ici :
 
 ### :mailbox_with_mail: ***[mael@lvh.edu.ni](mailto:mael@lvh.edu.ni)***
 
