@@ -32,11 +32,11 @@ Copyright (c) 2022 Yonnel Bécognée
 - le thème,
 - la nature grammaticale du mot...
 
-Les bases de données de mots actuellement implémentées sont :
+Les **bases de données** <img src="https://cdn.simpleicons.org/sqlite/FFFF" width="24" height="24" style="vertical-align: middle;" /> de mots actuellement implémentées sont :
 - [MiniLex](https://github.com/Yobeco/MAEL_Phrases/blob/main/readme_assets/Minima%20_Lexical_C1fev25.pdf) élaborée par AMLA Nord
 - [Lexique 3.83](http://www.lexique.org/) <img src="https://cdn.simpleicons.org/creativecommons/FFFF" width="24" height="24" style="vertical-align: middle;" /> BY NC *(Très complète ! Et surtout : contient les __descriptions phoniques__)*
 
-Phonofouille est déjà utilisée comme tel par des enseignants, mais son objectif réel est d'être implémenté en JavaScript dans **MAEL Phrase** afin d'aider les enseigannts à créer des activités sur mesure pour leurs élèves.
+**Phonofouille** est déjà utilisé comme tel par des enseignants, mais son objectif réel est d'être implémenté en JavaScript <img src="https://cdn.simpleicons.org/javascript/FFFF" width="24" height="24" style="vertical-align: middle;" /> dans **MAEL Phrase** afin d'aider les enseignants à créer des activités sur mesure pour leurs élèves dans **MAEL Phrase**.
 
 ---
 
@@ -59,12 +59,12 @@ Phonofouille est déjà utilisée comme tel par des enseignants, mais son object
 
 ## C- Comment utiliser MAEL Gen ? :blush:
 
-Utilisation très standard :
+L'utilisation est très standard :
 
-1. Choisir la base de données
-1. Choisir les critères de sélection des mots (Pas d'ordre en particulier)
-1. Lancer la recherche
-1. Copier toute la liste ou seulement un mot
+1. Choisir la base de données.
+1. Choisir les critères de sélection des mots (Pas d'ordre en particulier).
+1. Lancer la recherche.
+1. Copier toute la liste ou seulement un mot.
 
 ---
 
@@ -112,11 +112,11 @@ Un grand merci à toutes les personnes qui vont contribuer à ce projet !
 
 Pour essayer **MAEL Gen**, exécutez le script :
 
-    git clone https://github.com/Yobeco/MAEL_Gen.git
-    cd MAEL_Gen
-    python3 -m venv mael_venv
-    source mael_venv/bin/activate
+    git clone https://github.com/Yobeco/MAEL_Phonofouille.git
+    cd MAEL_Phonofouille
+    python3 -m venv venv_phono
+    source venv_phono/bin/activate
     pip install -r requirements.txt
-    python3 MAEL_V5.0.py
+    python3 main.py
 
 
