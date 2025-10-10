@@ -19,7 +19,7 @@ Copyright (c) 2022 Yonnel Bécognée
 
 ---
 
-![](https://github.com/Yobeco/MAEL_Project/blob/main/readme_assets/Phonofouille-600px.png)
+![](https://github.com/Yobeco/MAEL_Phonofouille/blob/main/readme_assets/Logo-MAEL-120.png)
 
 
 ## A- Description :eye:
